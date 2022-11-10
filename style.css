@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+}
+
+/* ------------------------------------------------------------- */
+/* -----------------------------NAVBAR-------------------------- */
+/* ------------------------------------------------------------- */
+
+.navbar{
+    box-shadow: 0 1px 5px #ccc;
+}
+
+.navbar .navbar-icon .icon-store{
+    text-align: right;
+}
+
+.navbar .navbar-icon i{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navbar .navbar-logo{
+    text-align: center;
+}
+
+.navbar .navbar-logo img{
+    width: 180px;
+}
+
+.navbar .navbar-menu .menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list .menu-item{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu-list .menu-item a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.menu-list .menu-item i{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+/* ------------------------------------------------------------- */
+/* ---------------------------INTRODUCE-------------------------- */
+/* ------------------------------------------------------------- */
+
+.introduce{
+    height: 645px;
+    width: 100%;
+    background-image: linear-gradient(180deg, #f7d794, #ea8685);
+}
+
+.introduce .introduce-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(140%);
+    margin-left: 50px;
+}
+
+.introduce .introduce-content h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.introduce .introduce-content p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.introduce .introduce-img img{
+    width: 100%;
+}
+
+.introduce .introduce-img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: -43px;
+    margin-top: -60px;
+
+}
+
+/* ------------------------------------------------------------- */
+/* -----------------------------HISTORY-------------------------- */
+/* ------------------------------------------------------------- */
+
+.history .history-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0;
+    line-height: 40px;
+}
+.history .history-process{
+    margin: 0 150px;
+    position: relative;
+}
+
+.history .history-process::before{
+    content: ' ';
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.history-process .part-left .history-content{
+    text-align: end;
+    margin-right: 50px;
+}
+
+.history-process .part-left:first-child{
+    margin-top: 80px;
+}
+
+.history-process .part-right .history-content{
+    text-align: start;
+    margin-left: 50px;
+
+}
+
+.history-process .history-img{
+    text-align: center;
+}
+/* dot 1 */
+
+.circle-dot-1{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    position: absolute;
+    top: 95px;
+    left: 46%;
+}
+
+.circle-dot-1 h1{
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 7px;
+    width: 55px;
+}
+
+/* dot 2 */
+
+.circle-dot-2{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    position: absolute;
+    top: 638px;
+    left: 46%;
+}
+
+.circle-dot-2 h1{
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 7px;
+    width: 55px;
+}
+
+/* dot 3 */
+
+.circle-dot-3{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    position: absolute;
+    top: 1336px;
+    left: 46%;
+}
+
+.circle-dot-3 h1{
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 7px;
+    width: 55px;
+}
+
+/* dot 4 */
+
+.circle-dot-4{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    position: absolute;
+    top: 1947px;
+    left: 46%;
+}
+
+.circle-dot-4 h1{
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 7px;
+    width: 55px;
+}
+
+/* ------------------------------------------------------------- */
+/* -----------------------------MEMORY-------------------------- */
+/* ------------------------------------------------------------- */
+
+.mission{
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.mission h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.mission h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mission::before{
+    content: " ";
+    width: 1px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+}
+
+.main-value h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.main-value .main-value-img img{
+    width: 90%;
+    margin-left: 20px;
+}
+
+.main-value .main-value-content{
+    margin:0 20px;
+}
+
+.main-value .main-value-content h4{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-value .main-value-content p{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------- */
+/* -----------------------------PRODUCT-------------------------- */
+/* ------------------------------------------------------------- */
+.product{
+    background-color: rgb(237, 237, 237);
+    height: 100%;
+    margin-bottom: -40px;
+}
+
+.product h1{
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 30px;
+    width: 125px;
+    border-bottom: 1px solid #ea8685;
+}
+
+.product h4{
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+}
+
+.product h4::after{
+    content: " ";
+    width: 20px;
+    height: 10px;
+    background-image: linear-gradient(90deg, #ea8685,#f7d794);
+    position: absolute;
+    top: 2px;
+    left: 53%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 60px;
+}
+
+.product .filter{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.product .filter-2{
+    margin: 0 30px;
+}
+
+.product .filter p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.product .filter select{
+    margin: 10px 0;
+    height: 30px;
+    outline: none;
+    min-width: 180px;
+}
+
+.product .filter select option{
+    color: #000;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.brand{
+    margin-top: 30px;
+}
+
+.brand h4{
+    margin-bottom: 50px;
+}
+
+.brand .product-img {
+    width: 100%;
+}
+
+.brand img{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: 0 10px 20px rgba(196, 196, 196, 0.679);
+}
+
+.brand .description{
+    text-align: center;
+}
+
+.brand .description .product-title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.brand .description .product-price{
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.brand .description .product-price-sale{
+    font-size: 26px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.brand .description .rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 40px;
+    font-size: 16px;
+}
+
+.brand .description .rate .star{
+    color: #ffce3d;
+}
+
+.brand .description .rate p{
+    color: #000;
+    font-weight: 200;
+}
+
+.brand-top .description .product-title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.brand-top .description .product-price{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.brand-top .description .product-price-sale{
+    font-size: 24px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.brand-top .description .rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 40px;
+    font-size: 14px;
+}
+
+.brand-top .description .rate .star{
+    color: #ffce3d;
+}
+
+.brand-top .description .rate p{
+    color: #000;
+    font-weight: 200;
+}
+
+/* ------------------------------------------------------------- */
+/* -----------------------------CONTACT-------------------------- */
+/* ------------------------------------------------------------- */
+
+.contact h4{
+    text-align: center;
+    margin: 30px 0 50px;
+    font-size: 30px
+}
+
+.contact .contact-content{
+    margin-right: 150px;
+}
+
+.contact-content .contact-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-content .contact-detail{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.contact-form .line-2-part{
+   display: flex;
+}
+
+.contact-form input, textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.contact-form input, textarea, button{
+    width: 100%;
+    margin: 15px 0;
+    outline: none;
+}
+
+.contact-form textarea{
+    height: 150px;
+}
+
+.contact button{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Mukta', sans-serif;
+}
+
+::placeholder{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Mukta', sans-serif;
+}
+
+.contact-partner h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contact-partner img{
+    width: 135px;
+}
+
+/* ------------------------------------------------------------- */
+/* -----------------------------NEWS-------------------------- */
+/* ------------------------------------------------------------- */
+
+.news{
+    margin-top: 30px;
+   
+}
+
+.news .news-poster{
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.news .news-poster img{
+    width: 100%;
+}
+
+.news .news-poster h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 30px;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+
+.news .news-poster p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 30px;
+    line-height: 24px;
+
+}
+
+.news .news-poster a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.news .news-poster a:hover{
+    color: #ea8685;
+}
+
+.news .news-details{
+    margin-left: 60px;
+}
+
+.news-details h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.news-details .news-list, .post-list{
+    list-style-type: none;
+}
+
+.news-details .news-item a, .post-item a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.news-item a{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+.post-item{
+    line-height: 18px;
+}
+
+.post-item p{
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------- */
+/* -----------------------------FOOTER-------------------------- */
+/* ------------------------------------------------------------- */
+
+.footer{
+    background-color: #000;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.footer .address h4{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer .address p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+.footer .address img{
+    width: 160px;
+    margin: 10px;
+}
+
+.footer .media .media-list,
+.footer .policy .policy-list{
+    list-style: none;
+    line-height: 24px;
+}
+
+.footer .policy .policy-item a,
+.footer .media .media-item a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;  
+}
+
+
